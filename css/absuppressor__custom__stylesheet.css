@@ -1,0 +1,1090 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/bebasneue-regular-webfont.eot');
+    src: url('../fonts/bebasneue-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue-regular-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue-regular-webfont.woff') format('woff'),
+         url('../fonts/bebasneue-regular-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue-regular-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'aktivgrotesk-blacuploadedfile';
+    src: url('../fonts/aktivgrotesk-black-webfont.eot');
+    src: url('../fonts/aktivgrotesk-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aktivgrotesk-black-webfont.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-black-webfont.woff') format('woff'),
+         url('../fonts/aktivgrotesk-black-webfont.ttf') format('truetype'),
+         url('../fonts/aktivgrotesk-black-webfont.svg#aktivgrotesk-blacuploadedfile') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-blacuploadedfile';
+    src: url('../fonts/aktivgrotesk-blackitalic-webfont.eot');
+    src: url('../fonts/aktivgrotesk-blackitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aktivgrotesk-blackitalic-webfont.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-blackitalic-webfont.woff') format('woff'),
+         url('../fonts/aktivgrotesk-blackitalic-webfont.ttf') format('truetype'),
+         url('../fonts/aktivgrotesk-blackitalic-webfont.svg#aktivgrotesk-blacuploadedfile') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-bolduploadedfile';
+    src: url('../fonts/aktivgrotesk-bold-webfont.eot');
+    src: url('../fonts/aktivgrotesk-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aktivgrotesk-bold-webfont.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-bold-webfont.woff') format('woff'),
+         url('../fonts/aktivgrotesk-bold-webfont.ttf') format('truetype'),
+         url('../fonts/aktivgrotesk-bold-webfont.svg#aktivgrotesk-bolduploadedfile') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'aktivgrotesk-bolduploadedfile__italic';
+    src: url('../fonts/aktivgrotesk-bolditalic-webfont.eot');
+    src: url('../fonts/aktivgrotesk-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aktivgrotesk-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/aktivgrotesk-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/aktivgrotesk-bolditalic-webfont.svg#aktivgrotesk-bolduploadedfile') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aktivgrotesk-hairuploadedfile';
+    src: url('../fonts/aktivgrotesk-hairline-webfont.eot');
+    src: url('../fonts/aktivgrotesk-hairline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aktivgrotesk-hairline-webfont.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-hairline-webfont.woff') format('woff'),
+         url('../fonts/aktivgrotesk-hairline-webfont.ttf') format('truetype'),
+         url('../fonts/aktivgrotesk-hairline-webfont.svg#aktivgrotesk-hairuploadedfile') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'aktivgrotesk-hairuploadedfile';
+    src: url('../fonts/aktivgrotesk-hairlineitalic-webfont.eot');
+    src: url('../fonts/../fonts/aktivgrotesk-hairlineitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aktivgrotesk-hairlineitalic-webfont.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-hairlineitalic-webfont.woff') format('woff'),
+         url('../fonts/aktivgrotesk-hairlineitalic-webfont.ttf') format('truetype'),
+         url('../fonts/aktivgrotesk-hairlineitalic-webfont.svg#aktivgrotesk-hairuploadedfile') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'aktivgrotesk-italuploadedfile';
+    src: url('../fonts/aktivgrotesk-italic-webfont.eot');
+    src: url('../fonts/aktivgrotesk-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aktivgrotesk-italic-webfont.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-italic-webfont.woff') format('woff'),
+         url('../fonts/aktivgrotesk-italic-webfont.ttf') format('truetype'),
+         url('../fonts/aktivgrotesk-italic-webfont.svg#aktivgrotesk-italuploadedfile') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aktivgrotesk-lighuploadedfile';
+    src: url('../fonts/aktivgrotesk-light-webfont.eot');
+    src: url('../fonts/aktivgrotesk-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aktivgrotesk-light-webfont.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-light-webfont.woff') format('woff'),
+         url('../fonts/aktivgrotesk-light-webfont.ttf') format('truetype'),
+         url('../fonts/aktivgrotesk-light-webfont.svg#aktivgrotesk-lighuploadedfile') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aktivgrotesk-lighuploadedfile';
+    src: url('../fonts/aktivgrotesk-lightitalic-webfont.eot');
+    src: url('../fonts/aktivgrotesk-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aktivgrotesk-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/aktivgrotesk-lightitalic-webfont.ttf') format('truetype'),
+         url('../fonts/aktivgrotesk-lightitalic-webfont.svg#aktivgrotesk-lighuploadedfile') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aktivgrotesk-mediuploadedfile';
+    src: url('../fonts/aktivgrotesk-medium-webfont.eot');
+    src: url('../fonts/aktivgrotesk-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aktivgrotesk-medium-webfont.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-medium-webfont.woff') format('woff'),
+         url('../fonts/aktivgrotesk-medium-webfont.ttf') format('truetype'),
+         url('../fonts/aktivgrotesk-medium-webfont.svg#aktivgrotesk-mediuploadedfile') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aktivgrotesk-mediuploadedfile';
+    src: url('../fonts/aktivgrotesk-mediumitalic-webfont.eot');
+    src: url('../fonts/aktivgrotesk-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aktivgrotesk-mediumitalic-webfont.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-mediumitalic-webfont.woff') format('woff'),
+         url('../fonts/aktivgrotesk-mediumitalic-webfont.ttf') format('truetype'),
+         url('../fonts/aktivgrotesk-mediumitalic-webfont.svg#aktivgrotesk-mediuploadedfile') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aktivgrotesk-reguuploadedfile';
+    src: url('../fonts/aktivgrotesk-regular-webfont.eot');
+    src: url('../fonts/aktivgrotesk-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aktivgrotesk-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-regular-webfont.woff') format('woff'),
+         url('../fonts/aktivgrotesk-regular-webfont.ttf') format('truetype'),
+         url('../fonts/aktivgrotesk-regular-webfont.svg#aktivgrotesk-reguuploadedfile') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aktivgrotesk-thinuploadedfile';
+    src: url('../fonts/aktivgrotesk-thin-webfont.eot');
+    src: url('../fonts/aktivgrotesk-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aktivgrotesk-thin-webfont.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-thin-webfont.woff') format('woff'),
+         url('../fonts/aktivgrotesk-thin-webfont.ttf') format('truetype'),
+         url('../fonts/a../fonts/ktivgrotesk-thin-webfont.svg#aktivgrotesk-thinuploadedfile') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aktivgrotesk-thinitlicuploadedfile';
+    src: url('../fonts/aktivgrotesk-thinitalic-webfont.eot');
+    src: url('../fonts/aktivgrotesk-thinitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aktivgrotesk-thinitalic-webfont.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-thinitalic-webfont.woff') format('woff'),
+         url('../fonts/aktivgrotesk-thinitalic-webfont.ttf') format('truetype'),
+         url('../fonts/aktivgrotesk-thinitalic-webfont.svg#aktivgrotesk-thinuploadedfile') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aktivgrotesk-xboluploadedfile';
+    src: url('../fonts/aktivgrotesk-xbold-webfont.eot');
+    src: url('../fonts/aktivgrotesk-xbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aktivgrotesk-xbold-webfont.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-xbold-webfont.woff') format('woff'),
+         url('../fonts/aktivgrotesk-xbold-webfont.ttf') format('truetype'),
+         url('../fonts/aktivgrotesk-xbold-webfont.svg#aktivgrotesk-xboluploadedfile') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aktivgrotesk-xboluploadedfile';
+    src: url('../fonts/aktivgrotesk-xbolditalic-webfont.eot');
+    src: url('../fonts/aktivgrotesk-xbolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aktivgrotesk-xbolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-xbolditalic-webfont.woff') format('woff'),
+         url('../fonts/aktivgrotesk-xbolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/aktivgrotesk-xbolditalic-webfont.svg#aktivgrotesk-xboluploadedfile') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header, footer, aside, nav, section {
+    display: block;
+}
+ul, li {
+    list-style: none;
+} 
+h1 {
+    font-size: calc((8.5 - 1) * 1.2vw + 1rem);
+}
+h2 {
+    font-size: calc((6.9 - 1) * 1.2vw + 1rem);
+}
+h3 {
+    font-size: calc((4.1 - 1) * 1.2vw + 1rem);
+}
+h4 {
+    font-size: calc((2 - 1) * 1.2vw + 1rem);
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 12px;
+}
+p{    
+    font-size: calc((1.1 - 1) * 1.2vw + 1.5rem);
+}
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+img, a {
+    border: none;
+    outline: none;
+}
+.clear {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    clear: both;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.full-width {
+    width: 100% !important
+}
+.margin-top-20 {
+    margin-top: 20px;
+}
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'bebas_neueregular'; 
+    line-height: normal;
+    font-weight: normal;
+}
+.wrapper {
+}
+html body {
+    font-family: 'aktivgrotesk-reguuploadedfile';
+}
+
+
+
+
+
+
+
+nav.navbar.customMainNavigation,
+header#head {
+    padding-top: 20px;
+    padding-bottom: 2vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: -moz-linear-gradient(top,  rgba(28,28,28,0.65) 0%, rgba(28,28,28,0.64) 1%, rgba(28,28,28,0) 100%) !important;
+    background: -webkit-linear-gradient(top,  rgba(28,28,28,0.65) 0%,rgba(28,28,28,0.64) 1%,rgba(28,28,28,0) 100%)  !important;
+    background: linear-gradient(to bottom,  rgba(28,28,28,0.65) 0%,rgba(28,28,28,0.64) 1%,rgba(28,28,28,0) 100%)  !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a61c1c1c', endColorstr='#001c1c1c',GradientType=0 );
+}
+
+header#head .container {
+    width: 100%;
+    max-width: 100%;
+} 
+
+header#head .header-top.primary {
+    background: none;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.top-nav.dropdown.type2{
+    background: none !important; 
+}
+
+header#head .navbar-default {
+    background: none;
+}
+header#head .navbar-default .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header#head .navbar-default .navbar-header{
+    margin-right: auto;
+}
+.customMainNavigation .navbar-brand {
+    margin-right: 3.2vw;
+}
+header#head .navbar-default .navbar-header a.navbar-brand {
+    padding: 20px 0;
+}
+.navbar-brand img {
+    max-width: 110px;
+}
+
+
+
+
+header#head .navbar-default .navbar-collapse.collapse {
+    margin-left: auto;
+    margin-right: 0;
+    padding-right: 0;
+}
+div#collapsibleMainNavbar ul {
+    align-items: center;
+}
+div#collapsibleMainNavbar li.nav-item,
+#head .navbar-default .navbar-nav>li {
+    margin-right: 1.8vw;
+}
+div#collapsibleMainNavbar li.nav-item:last-child,
+#head .navbar-default .navbar-nav>li:last-child {
+    margin-right: 0;
+}
+div#collapsibleMainNavbar a,
+#head .navbar-default .navbar-nav>li>a,
+#head .navbar-default .navbar-nav>li> ul li a {
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    font-family: 'bebas_neueregular';
+    font-size: 30px;
+    color: #fff !important;
+    padding: 0;
+}
+#head .navbar-default .navbar-nav>li>a.current-active, .navbar-nav>li>a:hover, .navbar-nav .dropdown-menu > li > a:hover{
+    color: #fff !important;
+}
+div#collapsibleMainNavbar ul ul.dropdown-menu {
+    min-width: 250px;
+    background: hsla(0, 0%, 8.235294117647058%, 1);
+    padding: 15px 20px;
+}
+div#collapsibleMainNavbar ul ul.dropdown-menu a,
+#head .navbar-default .navbar-nav>li> ul li a {
+    padding: 0px;
+    background: none;
+    width: auto;
+    position: relative;
+    display: inline-block;
+}
+div#collapsibleMainNavbar ul ul.dropdown-menu a.dropdown-item::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: 0.1em;
+    background: #fff;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .6s cubic-bezier(.19,1,.22,1);
+}
+div#collapsibleMainNavbar ul ul.dropdown-menu a.dropdown-item:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+div#collapsibleMainNavbar a i {
+    font-size: 20px;
+} 
+nav li.nav-item svg.icon.icon--cart {
+    width: 31px;
+    height: 31px;
+    stroke: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+div#slider .item {
+    height: auto;
+}
+
+div#slider .slide-item {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    width: 100% !important;
+    padding: 250px 0px;
+}
+.mainBannerSection {
+    padding: 170px 0px 170px;
+    min-height: 40px;
+    background: #1c1c1c !important;
+}
+.mainBannerSection h1,
+div#slider .slide-item h2 {
+    color: #fff;
+    font-family: 'bebas_neueregular';
+    font-size: 188px;
+    font-size: calc((8.5 - 1) * 1.2vw + 1rem);
+    max-width: 650px;
+    line-height: normal;
+    text-align: left;
+    text-shadow: none;
+}
+div#slider .slide-item .bsns-btn {
+    text-align: left;
+    display: block;
+}
+
+
+.homePageSection{    
+    padding-top: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 3vw;
+    padding-left: 3vw;
+    background: #1c1c1c;
+}
+
+.homePageVideoSection {
+    padding-top: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 3vw;
+    padding-left: 3vw;
+}
+.homePageVideoSection_videoHolder {
+    height: 80vh;
+    overflow: hidden;
+}
+.homePageVideoSection__customVideoContainer {
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 70vh;
+    overflow: hidden;
+}
+.homePageVideoSection__customVideoContainer iframe {
+    position: absolute;
+    top: -14vh;
+    left: 0%;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.riseAboveSection {
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+}
+.riseAboveSection img{
+    width: 100%;
+}
+
+.riseAboveSection p,
+.homePageSectionProducts p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    font-family: 'aktivgrotesk-reguuploadedfile';
+    margin-bottom: 20px;
+}
+
+
+.normalRoundedBtn,
+.college-slide .slide-item .bsns-btn a.btn.btn-gld,
+.newsletter input[type="submit"]{
+    transform: scaley(1);
+    transition: .6s cubic-bezier(.19,1,.22,1) color;
+    position: relative;
+    line-height: normal;
+    border-style: solid;
+    letter-spacing: 0em;
+    font-size: 1.7rem;
+    padding: 0.6em 1.002em;
+    border-width: 2px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    transform: scaley(1);
+    transition: .6s cubic-bezier(.19,1,.22,1) color;
+    position: relative;
+    background: transparent;
+    border-color: #fff !important;
+    border-radius: 300px;
+    color: #fff !important;
+    font-family: 'aktivgrotesk-reguuploadedfile';
+    text-decoration: none;
+    display: inline-block;
+}
+.normalRoundedBtn::before,
+.college-slide .slide-item .bsns-btn a.btn.btn-gld::before,
+.newsletter input[type="submit"]::before {
+    content: "";
+    border-width: 0;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    top: -2px;
+    z-index: -1;
+    border-style: solid;
+    position: absolute;
+    transition: .6s cubic-bezier(.19,1,.22,1) clip-path;
+    clip-path: polygon(-2% 102%,102% 102%,102% 102%,-2% 102%);
+    transform: translatez(0);
+    background-color: #fff;
+    border-radius: 300px;
+}
+.normalRoundedBtn:hover,
+.college-slide .slide-item .bsns-btn a.btn.btn-gld:hover {
+    color: #1c1c1c !important;
+}
+.normalRoundedBtn:hover::before,
+.college-slide .slide-item .bsns-btn a.btn.btn-gld:hover::before,
+.newsletter input[type="submit"]:hover::before {
+    clip-path: polygon(-2% -2%,102% -2%,102% 102%,-2% 102%);
+}
+
+,
+.newsletter input[type="submit"]:hover{
+    background: #000;
+}
+
+.signup input[type="text"]{
+    border-radius: 500px !important;
+}
+
+
+
+.homeAccordionSection {
+    background: #e8e8e9;
+}
+.homeAccordionSection .card {
+    background: none;
+    border: none;
+}
+.homeAccordionSection .card-header {
+    padding: 0;
+    background: none;
+    border: none;
+}
+.homeAccordionSection a.btn {
+    display: block;
+    text-align: left;
+    position: relative;
+    outline: none;
+    border: none;
+    font-family: 'bebas_neueregular';
+    font-size: 150px;
+    font-size: calc((6.9 - 1) * 1.2vw + 1rem);
+    color: #212529 !important;
+}
+
+.homeAccordionSection .plus {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    left: auto;
+    top: 0;
+    right: 0;
+}
+.homeAccordionSection .plus__horizontal-line, .homeAccordionSection .plus__vertical-line {
+    display: block;
+    height: 3px;
+    width: 24px;
+    background-color: currentColor;
+    transition: transform .2s;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.homeAccordionSection .plus__vertical-line {
+    transform: rotate(90deg);
+}
+.homeAccordionSection a[aria-expanded="true"] .plus__vertical-line {
+    transform: rotate(0deg);
+}
+
+.homeAccordionSection p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #000;
+    font-family: 'aktivgrotesk-reguuploadedfile';
+    margin-bottom: 20px;
+    max-width: 920px;
+}
+
+
+
+.homePageSectionProducts {
+}
+.homePageSectionProducts .row{
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}
+.homePageSectionProducts__img {
+    height: 0;
+    position: relative;
+    padding-bottom: 72%;
+}
+
+.homePageSectionProducts__img img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+}
+.homePageSectionProducts h2 {
+    font-family: 'bebas_neueregular';
+    font-size: 85px;
+    font-size: calc((4.1 - 1) * 1.2vw + 1rem);
+    color: #fff;
+    margin: 0 0 10px;
+    line-height: normal;
+}
+
+
+
+.homePageSectionWhatNoise {
+    position: relative;
+    overflow: hidden;
+}
+.homePageSectionWhatNoise video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.homePageSectionWhatNoise_text {
+    text-align: center;
+    position: relative;
+    z-index: 99;
+    padding: 6vh 0;
+}
+.homePageSectionWhatNoise h2 {
+    font-family: 'bebas_neueregular';
+    font-size: 150px;
+    font-size: calc((6.9 - 1) * 1.2vw + 1rem);
+    color: #fff;
+    margin: 0 0 20px;
+    line-height: normal;
+}
+
+
+.homePageSectionPartners{
+    text-align: center;
+}
+.homePageSectionPartners h2{
+    font-family: 'bebas_neueregular';
+    font-size: 85px;
+    font-size: calc((4.1 - 1) * 1.2vw + 1rem);
+    color: #fff;
+    margin: 0 0 20px;
+    line-height: normal;
+}
+.homePageSectionPartners__list {
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.homePageSectionPartners__list li{
+    max-width: 25%;
+}
+.homePageSectionPartners__list li img {
+    max-width: 210px;
+    width: 100%;
+}
+
+
+
+footer {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background: #1c1c1c;
+    padding-top: calc(20vmax / 10);
+    padding-bottom: calc(20vmax / 10);
+}
+.footerLogo img {
+    display: block;
+    max-width: 200px;
+    width: 100%;
+}
+footer p {
+    color: #fff;
+    padding: 20px 0px;
+    /* max-width: 200px; */
+    font-size: 14px;
+    font-family: 'aktivgrotesk-bolduploadedfile';
+}
+footer h2 {
+    color: #fff;
+    margin: 0;
+    padding: 0px 0px 20px;
+    font-size: 14px;
+    font-size: calc((.9 - 1) * 1.2vw + 1rem);
+    font-family: 'aktivgrotesk-bolduploadedfile';
+}
+footer h2 a{
+    color: #fff;
+    display: block;
+    font-size: 14px
+    font-size: calc((.9 - 1) * 1.2vw + 1rem);
+    font-family: 'aktivgrotesk-bolduploadedfile';
+}
+footer a{
+    text-decoration: none;
+} 
+footer ul {
+    list-style: none;
+    margin: -15px 0px 20px;
+    padding: 0px;
+}
+footer li a{
+    color: #878787;
+    font-size: 14px;
+    font-family: 'aktivgrotesk-bolduploadedfile';
+}
+footer li a:hover{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+section.footer-widget {
+    background: #1c1c1c !important;
+    padding: 10vh 0 !important;
+}
+section.footer-widget .footer-item h4,
+section.footer-widget .footer-item p,
+section.footer-widget .footer-item li a, 
+section.footer-widget .footer-item li,
+section.footer-widget .footer-item li span {
+    display: block;
+    font-size: calc((.9 - 1) * 1.2vw + 1.7rem);
+    font-family: 'aktivgrotesk-bolduploadedfile';
+    color: #878787 !important;
+}
+section.footer-widget .footer-item h4,
+section.footer-widget .footer-item p b,
+section.footer-widget .footer-item li a b, 
+section.footer-widget .footer-item li b,
+section.footer-widget .footer-item li span b,
+section.footer-widget .footer-item li a:hover{
+    color: #fff !important;
+}
+footer.footer {
+    background: #1c1c1c !important;
+    padding: 0;
+}
+.footer .social-links li a {
+    color: #fff !important;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+/********============================================== suppressors Page **********/
+.suppressorsPageBanner {
+    position: relative;
+}
+.suppressorsPageBanner__background img {
+    max-width: 100%;
+    display: block;
+}
+.suppressorsPageBanner__text {
+    position: absolute;
+    top: calc(140px + 10vh);
+    padding: 0 3vw;
+}
+.suppressorsPageBanner__text h2 {
+    font-size: calc((4.1 - 1) * 1.2vw + 1rem);
+    color: #fff;
+}
+
+
+.suppressorsPage__Headings h3 {
+    color: #fff;
+}
+.suppressorsPage__Headings p{
+    color: #fff;
+    max-width: 580px;
+}
+
+
+
+
+.suppressorsPage__ProductGrid {
+    padding: 3vh 3vw;
+}
+.productBlock {
+    padding: 0px 0px 30px;
+}
+.productBlock__img,
+.aboutPage__imgs__square {
+    width: 100%;
+    position: relative;
+    height: 0;
+    padding-bottom: 100%;
+}
+.productBlock__img img,
+.aboutPage__imgs__square img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.productBlock h4 {
+    margin: 2rem 0px 4rem;
+}
+.productBlock .normalRoundedBtn {
+    color: #1c1c1c;
+    border-color: #1c1c1c;
+}
+.productBlock .normalRoundedBtn:hover{
+    color: #fff;
+}
+.productBlock .normalRoundedBtn::before{
+    background: #1c1c1c;
+}
+/*************** all product end ss ***********/
+
+
+/**** about page starts ***********/
+
+.aboutPageBanner__text {
+    position: absolute;
+    bottom: 0;
+    padding: 0 3vw;
+}
+.aboutPageBanner__text h1 {
+    color: #fff;
+}
+
+.aboutPage__info{
+    padding-top: calc(60vmax / 10);
+    padding-bottom: calc(60vmax / 10);
+}
+.aboutPage__info h3,
+.aboutPage__info p{
+    color: #fff;
+    line-height: normal;
+    text-align: left;
+}
+.aboutPage__info p{
+    font-family: 'aktivgrotesk-reguuploadedfile';
+}
+
+.aboutPage__info__sign img{
+    max-width: 100%;
+}
+
+
+.aboutPage__inHouse{
+    padding-top: calc(60vmax / 10);
+    padding-bottom: calc(60vmax / 10);
+    background: #e8e8e9;
+}
+.aboutPage__inHouse h2{
+    color: #212529 !important;
+}
+.aboutPage__inHouse  p {
+    max-width: 900px;
+    margin: 20px auto 60px;
+    color: #212529 !important;
+}
+.aboutPage__barToBarrel  h3 {
+    margin: 0px 0px 30px !important; 
+    color: #fff;
+    line-height: normal;
+}
+/*********+++++++++++++++++++++++++++++++++++++ responsive view +++++++++++++++++++++++++++++++++***********/
+@media screen and (max-width: 1300px) {
+div#collapsibleMainNavbar a {
+    font-size: 20px;
+}
+div#collapsibleMainNavbar a i {
+    font-size: 16px;
+}
+}
+@media screen and (max-width: 991px) {
+div#collapsibleMainNavbar a, #head .navbar-default .navbar-nav>li>a, #head .navbar-default .navbar-nav>li> ul li a {
+    font-size: 24px;
+}
+.customMainNavigation .navbar-brand {
+    order: 1;
+    margin: 0;
+}
+.navbar-brand img {
+    max-width: 50px;
+}
+.customMainNavigation  button.navbar-toggler {
+    order: 3;
+    padding: 0;
+    border: none;
+}
+.headerCartIcon {
+    order: 0;
+}
+.headerCartIcon a.nav-link {
+    padding: 0;
+}
+
+
+div#collapsibleMainNavbar {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    text-align: left;
+    top: 100px;
+    background: #1c1c1c;
+    height: calc(100vh - 100px);
+    z-index: 999;
+    overflow-y: scroll;
+}
+
+div#collapsibleMainNavbar ul {
+    text-align: left;
+    align-items: flex-start;
+    padding: 20px 30px;
+}
+
+div#collapsibleMainNavbar li.nav-item {
+    width: 100%;
+}
+div#collapsibleMainNavbar a {
+    font-size: 28px;
+    padding: 5px 0;
+}
+div#collapsibleMainNavbar ul.justify-content-end {
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+div#collapsibleMainNavbar a i {
+    font-size: 20px;
+}
+div#collapsibleMainNavbar ul.justify-content-end li{
+    width: auto;
+}
+div#collapsibleMainNavbar ul.justify-content-end
+/*************************** ends Navigation ***/
+.riseAboveSection img {
+    margin-bottom: 40px;
+}
+.homePageSectionProducts h2 {
+    margin-top: 30px;
+}
+
+
+/***** inner suppressors page ****/
+.productBlock {
+    padding: 0px 0px 60px;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+header#head .header-top.primary {
+    display: none;
+}
+header#head .navbar-default .navbar-header {
+    justify-content: space-between;
+}
+header#head .navbar-default .navbar-header button.navbar-toggle {
+    margin-left: auto;
+    margin-right: 0;
+}
+header#head .navbar-default .navbar-header a.navbar-brand {
+    padding-left: 0;
+    padding-right: 0;
+    order: 0;
+}
+header#head .navbar-default .navbar-collapse {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 100%;
+}
+div#collapsibleMainNavbar a, #head .navbar-default .navbar-nav>li>a,
+#head .navbar-default .navbar-nav>li> ul li a {
+    font-size: 18px;
+    color: #000 !important;
+    background: none;
+    width: 100%;
+}
+}
