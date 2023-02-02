@@ -420,7 +420,7 @@ color: #fff !important;
 #head .fa {padding:0px!important; }
 .top-nav.dropdown .cart .product_list_widget,.top-nav.dropdown li ul.submenu {
     color: #fff!important;
-    background: #c36c14!important;
+    background: #000!important;
     z-index: 99;
 }
 .top-nav.dropdown.type2{

@@ -55,6 +55,9 @@ nav.productViewToggle>a {
 }
 .cartWidgetInner .buttons >a {
     padding: 10px 15px;
+    background: no-repeat;
+    border: 2px solid #fff;
+    border-radius: 300px;
 }
 aside.widget {
     margin-bottom: 15px;
